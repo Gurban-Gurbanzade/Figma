@@ -1,79 +1,45 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-image: url(ana-sehife.png);
-    background-repeat: no-repeat;
-}
-
-.goy-hisse {
-    border: 1px solid black;
-    width: 305px;
-    height: 83px;
+    width: 1400px;
     margin-top: 0px;
-    margin-right: 0px;
-    background-color: #253476;
-    margin-left: 1095px;
 }
 
-.bayraq {
-    width: 49.98px;
-    height: 24.97px;
-    margin-left: 136.02px;
-    margin-top: 28.02px;
+.header {
+    background-image: url(image/menzere.png);
+    height: 760px;
 }
 
-.logo {
-    border: 1px solid black;
+.header__nawbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nawbar img {
     width: 190px;
     height: 52px;
     margin-top: 14px;
     margin-left: 145px;
-    margin-right: 1065px;
 }
 
-.logo-tac {
-    padding-left: 74.26px;
-    width: 40.26px;
-    height: 14.09px;
-}
-
-.logo-yazi {
-    width: 18.57px;
-    height: 20.17px;
-    padding-left: 40px;
-    padding-top: 60px;
-    color: #27AE60;
-}
-
-
-
-nav ul {
-    border: 1px solid black;
-    width: 546px;
-    height: 22px;
-    margin-left: 430px;
-    margin-top: 46px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21.6px;
-    letter-spacing: 1px;
-}
-
-li {
+.header__nawbar nav ul li {
     display: inline;
-    padding-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 20px;
+    text-decoration: none;
 }
 
-section {
-    border: 1px solid black;
-    color: #FFFF;
-    width: 690px;
-    height: 118px;
-    margin-top: 318px;
-    margin-left: 355px;
-    font-size: 38px;
-    text-align: center;
+.header__goy {
+    width: 305px;
+    height: 83px;
+    background-color: #253476;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__goy img {
+    width: 50px;
+    height: 25px;
+    /* margin-right: 119px;
+    margin-top: 28px; */
 }
