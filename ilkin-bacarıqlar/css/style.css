@@ -1,0 +1,73 @@
+body {
+    width: 1200px;
+    background-color: #F1D00A;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sekil {
+
+    display: inline;
+}
+
+.sekil img {
+    width: 190px;
+
+}
+
+.header__info {
+
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header__info:hover {
+    background-color: #03045E;
+    color: white;
+}
+
+.header__info span {
+    font-size: large;
+}
+
+.tehsil {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tehsil:hover {
+    background-color: #03045E;
+    color: white;
+    border-radius: 9px;
+    font-size: 30px;
+}
+
+.tehsil__uni {
+    display: flex;
+    flex-direction: column;
+}
+
+.staj {
+    width: 100%;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.staj:hover {
+    background-color: #3E497A;
+    color: white;
+    border-radius: 9px;
+    font-size: 30px;
+}
