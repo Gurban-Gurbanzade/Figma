@@ -1,0 +1,120 @@
+body {
+    width: 1530px;
+    margin: 0px;
+
+}
+
+.info {
+
+    padding: 21px 201px;
+    background-color: #007878;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__faq__faq {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.nawbar {
+    padding: 28px 201px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nawbar__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nawbar__info input {
+    width: 504px;
+    height: 48px;
+}
+
+.nawbar__info__right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nawbar__info__right a {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.nawbar__naw {
+    margin-top: 15px;
+}
+
+.nawbar__naw ul {
+    padding-left: 0px;
+
+}
+
+.nawbar__naw li {
+    display: inline;
+    color: #273142;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.company {
+    height: 584px;
+    background-color: #FFE2E0;
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+
+.company img {
+    width: 642px;
+    height: 535px;
+    margin-right: 123px;
+    margin-top: 24px;
+}
+
+.company__info {
+    width: 453px;
+    margin-left: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+}
+
+.company__info button {
+    width: 192px;
+    height: 52px;
+    background-color: #206363;
+    color: white;
+}
+
+.company__info h3,
+h4,
+p {
+    margin: 0px 0px;
+}
+
+.company__info h4 {
+    color: #df4244;
+    font-size: 24px;
+}
+
+.company__info h3 {
+    color: black;
+    font-size: 40px;
+}
