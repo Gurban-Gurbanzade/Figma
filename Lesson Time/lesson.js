@@ -1,27 +1,31 @@
 "use strict"
-let name = undefined;
-name = "Qurban"
-console.log(name);
 
-let myBirthday = "menim ad gunum"
-const b = `${myBirthday}`
-console.log(b);
+// let azn = "100";
+// let dollar = "200";
 
-let name1 = "Qurban";
-let age = 1;
-console.log(name1 / age);
+// console.log(+azn + +dollar);
 
-let muqayise = 4 < 5
-console.log(muqayise)
+// alert(+" ");
 
-let muqayise1;
-console.log(muqayise1)
+let a = 3;
+let b = 2;
+console.log(a % b);
+console.log(a ** b);
 
-let name2;
-console.log(typeof (name2))
+let numb = "0";
+console.log("0" == false);
 
-let name3;
-window.prompt(name3)
+let numb1 = " ";
+console.log(" " == undefined);
 
-let name4;
-window.confirm(name4)
+let name1 = "a";
+let name2 = "z";
+console.log(name1 < name2);
+
+let name3 = 3;
+let name4 = 4;
+if (name3 > name4) {
+    console.log("dogru")
+} else {
+    console.log("sehv")
+}
