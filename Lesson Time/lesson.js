@@ -1,92 +1,74 @@
-// let user = {
-//   name: "nail",
-//   age: 26,
+// salamVer("nail");
+// function salamVer(ad) {
+//   alert(`salam, ${ad}`);
+
+// let salamVer = function (ad) {
+//   alert(`salam, ${ad}`);
 // };
 
-// alert(user.name);
-// alert(user.age);
+// let yas = prompt("nece tasin var", 18);
+// if (yas < 18) {
+//   function salam() {
+//     alert("salam!");
+//   }
+//   salam();
+// } else {
+//   function salam() {
+//     alert("salamlar!");
+//   }
+//   salam();
+// }
 
-// user.adminMi = true;
+// let yas = prompt("yasi daxil edin");
+// if (yas > 18) {
+//   function
+//   alert("yas 18den boyukdur");
+// }
+// else {
+//   alert("yas 18den kicikdir");
+// }
 
-// delete user.age;
+// function evlendirme(kishi, qadin) {
+//   qadin.xanim = kishi;
+//   kishi.bey = qadin;
 
-// let user = {
-//   name: "nail",
-//   age: 26,
-// };
-
-// let key = promt("name");
-// alert(user[key]);
-
-// let obj = {};
-// obj.__proto__ = 5;
-// alert(obj.__proto__);
-
-// function creatUser(name, age) {
 //   return {
-//     name,
-//     age,
+//     ata: kishi,
+//     ana: qadin,
 //   };
 // }
 
-// let user = creatUser("nail", 26);
-// alert(user.name);
+// let aile = evlendirme(
+//   {
+//     name: "mecnun",
+//   },
+//   {
+//     name: "leyla",
+//   }
+// );
+// console.log(aile);
 
-// let obj = {
-//   test: undefined,
-// };
-// alert(obj.test);
+// let id1 = Symbol("id");
+// let id2 = Symbol("id");
+// alert(id1 == id2);
 
-// let kodlar = {
-//   994: "Azerbaycan",
-//   49: "Almaniya",
-//   41: "Isvecre",
-//   44: "Ingiltere",
-//   1: "Amerika",
-//   23: "Baki",
-// };
+// let user = { name: "nail",id=Symbol("id") };
+// user[id] = "ID deyeri";
+// alert(user[id]);
 
-// for (let kod in kodlar) {
-//   alert(kod);
-//}
-
-// let user = { name: "nail" };
-// let admin = user;
-// admin.name = "elmar";
-// alert(admin.name);
-
-// let a = {};
-// let b = {};
-// alert(a == b);
-
-// const user = {
-//   name: "nail",
-// };
-// user={
-//     name = "elmar";
-// }
-// user.age = 26;
-// alert(user.name);
-
+// let cinsi = Symbol("");
 // let user = {
-//   name: "nail",
-//   age: 30,
+//   name: "qurban",
+//   age: 29,
+//   position: "muhendis",
+//   [cinsi]: "kisi",
 // };
-// let clone = {};
-// for (let key in user) {
-//   clone[key] = user[key];
+// for (key in user) {
+//   console.log(key, user[key]);
 // }
-// clone.name = "elmar";
-// alert(user.name);
-// alert(clone.name);
 
-let user = {
-  name: "nail",
-  body: {
-    uzunluq: 182,
-    eni: 50,
-  },
-};
-let clone = Object.assign({}, user);
-alert(user.body === clone.body);
-console.log(user.body.uzunluq);
+let name1 = Symbol("qurban");
+let name2 = Symbol("nail");
+
+alert(Symbol.keyFor(Symbol.for("name")));
+alert(Symbol.keyFor(Symbol.for("name2")));
