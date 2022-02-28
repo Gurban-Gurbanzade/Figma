@@ -1,0 +1,30 @@
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .kvadrat {
+  width: 90px;
+  height: 90px;
+  background-color: blue;
+  text-align: center;
+  margin: 20px;
+}
+
+section .daire {
+  width: 90px;
+  height: 90px;
+  background-color: red;
+  text-align: center;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+section .duzbucaqli {
+  width: 180px;
+  height: 90px;
+  background-color: green;
+  text-align: center;
+  margin: 20px;
+}
