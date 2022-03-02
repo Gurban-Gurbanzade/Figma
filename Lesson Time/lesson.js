@@ -1,31 +1,68 @@
-// for (let i = 0; i < 3; i++) {
-//   alert(i);
+// let user = {
+//   salamVer: function () {
+//     alert("salam");
+//   },
+// };
+
+// let user = {
+//   salamVer() {
+//     alert("salam");
+//   },
+// };
+
+// let user = {
+//   name: "Nail",
+//   age: 26,
+
+//   salamVer() {
+//     alert(this.name);
+//   },
+// };
+// user.salamVer();
+
+// let user = {
+//   name: "Nail",
+//   age: 26,
+//   salamVer() {
+//     alert(this.name);
+//   },
+// };
+// let admin = user;
+
+// let user = { name: "nail" };
+// let admin = { name: "elmar" };
+
+// function salamVer() {
+//   alert(this.name);
 // }
-// for (; i < 3; i++) {
-//   alert(i);
-// }
-// let cem = 0;
-// while (true) {
-//   let deyer = +prompt("reqem yazin", "");
-//   if (deyer) break;
-//   cem += deyer;
-// }
-// alert("cemi:" + cem);
-// for (let i = 0; i < 10; i++) {
-//   if (i % 2 == 0) continue;
-//   alert(i);
-// }
-// dovretme: for (let i = 0; i < 3; i++) {
-//   for (let j = 0; j < 3; j++) {
-//     let girish = prompt(`kordinatdaki deyer deyer(${i},${j})`, "");
-//     if (!girish) break dovretme;
-//   }
-// }
-// let i = 0;
-// while (i++ < 5) alert(i);
-// let i = 0;
-// while (i++ < 3) alert(i);
-// let i = prompt("deyer yazin", "");
-// while (i < 50) {
-//   i = prompt("deyer yazin", "");
-// }
+// user.f = salamVer;
+// admin.f = salamVer;
+
+// user.f();
+// admin.f();
+
+// let user = {
+//   name: "qurban",
+//   salamVer() {
+//     alert(this.name);
+//   },
+//   yolaSal() {
+//     alert("helelik");
+//   },
+// };
+// user.salamVer();
+
+// let user = {
+//   name: "nail",
+//   salamVer: function () {
+//     alert(this.name);
+//   },
+// };
+// user.salamVer();
+
+// let num = +prompt("reqem yazin", "");
+// alert(isFinite(num));
+
+// alert(Math.pow(2, 10));
+
+let a=+prompt*
