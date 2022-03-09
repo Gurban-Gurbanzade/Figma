@@ -1,68 +1,15 @@
-// let user = {
-//   salamVer: function () {
-//     alert("salam");
-//   },
-// };
+// let obj={};
+// function A(){...};
+// function B(){...};
 
-// let user = {
-//   salamVer() {
-//     alert("salam");
-//   },
-// };
+// alert(new A()==nev B());
 
-// let user = {
-//   name: "Nail",
-//   age: 26,
+// let str = "bir kere yukselen bayraq bir daha enmez";
 
-//   salamVer() {
-//     alert(this.name);
-//   },
-// };
-// user.salamVer();
-
-// let user = {
-//   name: "Nail",
-//   age: 26,
-//   salamVer() {
-//     alert(this.name);
-//   },
-// };
-// let admin = user;
-
-// let user = { name: "nail" };
-// let admin = { name: "elmar" };
-
-// function salamVer() {
-//   alert(this.name);
+// if (~str.lastIndexof("bir")) {
+//   alert("tapdim");
 // }
-// user.f = salamVer;
-// admin.f = salamVer;
 
-// user.f();
-// admin.f();
+// alert("yuzdeyuz".includes("uz"));
 
-// let user = {
-//   name: "qurban",
-//   salamVer() {
-//     alert(this.name);
-//   },
-//   yolaSal() {
-//     alert("helelik");
-//   },
-// };
-// user.salamVer();
-
-// let user = {
-//   name: "nail",
-//   salamVer: function () {
-//     alert(this.name);
-//   },
-// };
-// user.salamVer();
-
-// let num = +prompt("reqem yazin", "");
-// alert(isFinite(num));
-
-// alert(Math.pow(2, 10));
-
-let a=+prompt*
+alert(str.slice(-4, -1));
